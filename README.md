@@ -20,6 +20,8 @@ Track parent nodes and check if a visited neighbor is not the parent.
 ✅ Cycle Detection in Directed Graph (DFS)
 Maintain a visited array and a recursion stack.
 If a node is visited again in the current recursion stack, a cycle exists
+
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -73,6 +75,8 @@ int main()
  
     return 0;
 }
+```
+
 🚀 Graph Cycle Detection – BFS & DFS Approach!
 
 Today, I deep-dived into Cycle Detection in both undirected and directed graphs using BFS and DFS.
